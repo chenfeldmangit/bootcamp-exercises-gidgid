@@ -2,9 +2,78 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title></title>
+    <title>Gideon tables & forms</title>
+    <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
   </head>
   <body>
-    <p>This is a test</p>
+      <h1>Users Data Table</h1>
+    <table style="width: 100%">
+      <tr>
+          <td><b>First name</b></td>
+          <td><b>Last name</td>
+          <td><b>Gender</td>
+          <td><b>Age</td>
+          <td><b>Top 3 Friends</td>
+          <td><b>Description</td>
+          <td><b>Image</td>
+          <td><b>Inner Table</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>30</td>
+        <td>Male</td>
+        <td>
+            <ol>
+                <li>Meni</li>
+                <li>Yossi</li>
+                <li>Israel</li>
+            </ol>
+        </td>
+        <td>
+            <h2>Just some cool guy</h2>
+            <p>Nothing else to say</p>
+        </td>
+        <td><img src="test_image.png" alt="The Image" width="300" height="200"></td>
+        <td>
+            <table>
+                <tr>
+                    <td>First cell</td>
+                    <td>Second cell</td>
+                </tr>
+            </table>
+        </td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>30</td>
+        <td>Male</td>
+        <td>
+            <ol>
+                <li>Meni</li>
+                <li>Yossi</li>
+                <li>Israel</li>
+            </ol>
+        </td>
+        <td>
+            <h2>Just some cool guy</h2>
+            <p>Nothing else to say</p>
+        </td>
+        <td><img src="test_image.png" alt="The Image" width="300" height="200"></td>
+        <td>
+            <table>
+                <tr>
+                    <td>First cell</td>
+                    <td>Second cell</td>
+                </tr>
+            </table>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
